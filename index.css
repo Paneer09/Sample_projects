@@ -38,3 +38,17 @@ nav{
     background-size: cover;
     height: 100vh;
 }
+
+@media screen and (max-width:600px) {
+
+    nav{
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    section{
+        background-position: center;
+        width: 100%;
+    }
+}
+
